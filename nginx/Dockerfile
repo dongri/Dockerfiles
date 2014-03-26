@@ -1,4 +1,4 @@
-FROM tianon/centos:6.5
+FROM centos
 MAINTAINER Dongri Jin
 
 RUN yum update -y && \
@@ -10,4 +10,3 @@ ADD src /usr/share/nginx/html
 
 EXPOSE 80
 ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
-
