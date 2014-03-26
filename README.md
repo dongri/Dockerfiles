@@ -59,3 +59,12 @@ boot2docker: 0.7.0
 docker@boot2docker:~$ 
 
 ```
+
+### push to index.docker.io
+
+```
+$ docker ps -a
+$ docker commit d28542da8e8f dongri/nginx
+$ docker push dongri/nginx
+```
+
