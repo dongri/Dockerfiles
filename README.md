@@ -39,4 +39,23 @@ sudo cp docker /usr/local/bin/
 ./boot2docker
 
 # Usage ./boot2docker {init|start|up|pause|stop|restart|status|info|delete|ssh|download}
+
+dongri% ./boot2docker ssh
+docker@localhost's password: ← tcuser
+                        ##        .
+                  ## ## ##       ==
+               ## ## ## ##      ===
+           /""""""""""""""""\___/ ===
+      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+           \______ o          __/
+             \    \        __/
+              \____\______/
+ _                 _   ____     _            _
+| |__   ___   ___ | |_|___ \ __| | ___   ___| | _____ _ __
+| '_ \ / _ \ / _ \| __| __) / _` |/ _ \ / __| |/ / _ \ '__|
+| |_) | (_) | (_) | |_ / __/ (_| | (_) | (__|   <  __/ |
+|_.__/ \___/ \___/ \__|_____\__,_|\___/ \___|_|\_\___|_|
+boot2docker: 0.7.0
+docker@boot2docker:~$ 
+
 ```
