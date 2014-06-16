@@ -7,6 +7,7 @@ RUN yum install -y npm
 
 ADD src /src
 
+RUN npm install -g nodemon
 RUN cd /src; npm install
 
 EXPOSE 3000
