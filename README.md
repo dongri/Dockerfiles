@@ -5,7 +5,7 @@ VirtualBox
 https://www.virtualbox.org/wiki/Downloads
 
 Docker Install    
-http://docs.docker.io/en/latest/installation/mac/
+http://docs.docker.com/installation/mac/
 
 ### boot2docker
 ```
